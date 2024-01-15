@@ -1,0 +1,110 @@
+/* @import url(https://fonts.googleapis.com/css?family=Poiret+One); */
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+body{
+    background-color: rgb(53, 53, 53);
+}
+img{
+    cursor: pointer;
+}
+.weather_App{
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+    max-width: 900px;
+    padding: 12px;
+    display: block;
+    background-color: rgb(241, 241, 241);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.search_aria {
+    display: flex;
+    justify-content: center;
+}
+.search_aria input{
+    border: 1px solid rgb(199, 199, 199);
+    outline: none;
+    padding:8px;
+    width: 300px;
+    max-width: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(219, 219, 219);
+}
+.search_aria button{
+    padding: 8px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: orangered;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.search_aria button > i{
+    padding-left: 5px;
+}
+.weather_text{
+    max-width: 900px;
+}
+.weather_image{
+    display: flex;
+    justify-content: center;
+}
+.weather_image i{
+    font-size: 80px;
+    margin: 20px;
+    cursor: pointer;
+}
+.first_row{
+    margin-top: 20px;
+}
+.clouds{
+    color: white;
+    padding: 25px;
+    align-items: center;
+    background-color:rgb(0, 0, 0)
+
+}
+.clouds h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+}
+.clouds > div > h4{
+    color: white;
+}
+.time{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #be2edd;
+}
+.time > p{
+    margin: 0%;
+    font-size: 22px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.last_row{
+    padding: 20px;
+}
+.last_row .col-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last_row .col-3 p{
+    margin: 0%;
+}
+.last_row > .col-3 > img{
+    width: 50px;
+    height: 50px;
+}
