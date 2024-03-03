@@ -8,7 +8,7 @@ This is a Weather-APP project. This project is made with React-JS & openweather 
   <li>React-JS</li>
   <li>CSS</li>
   <li>Bootstrap</li>
-  <li>News API</li>
+  <li>Weather API</li>
 </ul>
 
 <h4>What I've implemented?</h4>
